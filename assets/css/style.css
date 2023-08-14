@@ -7,7 +7,7 @@
     font-family: Roboto, sans-serif ;
 }
 body {
-    background-color: aliceblue;
+    background-color: white;
 }
 #header {
     width: 100%;
@@ -17,6 +17,9 @@ body {
 }
 h1 {
     font-size: 30px;
+    color: black;
+    
+    
 }
 #navbar {
     display: flex;
@@ -24,35 +27,43 @@ h1 {
     width: 100px;
     height: 100vh;
     position: relative;
-    top: 25px;
+    
     
          
 }
 #navbar img {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     margin-left: 100px; 
+
 
 }
 li {
     display: inline;
     text-decoration: none;
-    margin-right: 20px;
-    text-align: right;
+    margin-right: 25px;
+    text-align: left;
+    text-transform: capitalize;
+    padding: 0%;
 }
 #navbar ul {
     display: flex;
     margin-right: 50px;
+    margin-left: 900px;
+    
 }
 #navbar ul li {
-    font-size: 25px;
+    font-size: 15px;
     display: flex;
-    text-align: end;
+    text-align: center;
+    cursor: pointer;
 }
 a {
-    color: blue;
+    color: gray;
     text-decoration: none;
-    text-align: left;
+    text-align: right;
+    text-transform: capitalize;
+    
 }
 a :hover {
     color: green;
